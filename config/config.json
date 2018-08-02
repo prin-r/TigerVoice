@@ -1,0 +1,471 @@
+{
+    "display": {
+        "width": 1920,
+        "height": 1080,
+        "x": 0,
+        "y": 0,
+        "alwaysOnTop": false,
+        "borderLess": true,
+        "hideCursor": false
+    },
+
+    "assetPath": "D:\\src\\projects\\tiger_voice_of_youth\\assets\\",
+
+    "mainPage": {
+        "thaiNormal": [ "ก", "ข", "ค", "ฆ", "ง", "จ", "ฉ", "ช", "ซ", "ฌ", "ญ", "ฎ", "ฏ", "ฐ", "ฑ", "ฒ", "ณ", "ด", "ต", "ถ", "ท", "ธ", "น", "บ", "ป", "ผ", "ฝ", "พ", "ฟ", "ภ", "ม", "ย", "ร", "ล", "ว", "ศ", "ษ", "ส", "ห", "ฬ", "อ", "ฮ" ],
+        "thaiUpper": [ "ั", "ี", "ิ", "ื", "ึ", "์", "่", "้", "๊", "๋", "็", "ํ" ],
+        "engLower": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ],
+        "engUpper": [ "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" ],
+        "transitionDuration": 5,
+        "timeBeetweenRandomization": 0.1,
+        "testAnswer": "testAnswer",
+        "fontName": "Wongjonpidd.ttf",
+        "answerQueueStride": 0.03,
+        "maxShownAnswers": 22,
+        "nextMessageCountDown": 20,
+        "questionFontSize": 75,
+        "questionPosition": {
+            "x": 0.5,
+            "y": 0.095
+        },
+        "answerFontSize": 75,
+        "spaceBetweenFrontAndBack": 20,
+        "numberOfDisplayText": 5,
+        "displayTextOffset": {
+            "x": 0.01,
+            "y": 0.2
+        },
+        "displayTextSpace": {
+            "x": 0.0,
+            "y": 0.14
+        },
+        "questionPath": "D:\\src\\projects\\tiger_voice_of_youth\\assets\\question.txt",
+        "previewArea": {
+            "x1": 0.03073,
+            "y1": 0.605555,
+            "x2": 0.41875,
+            "y2": 0.938888
+        },
+        "bg": {
+            "video": {
+                "path": "bg.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 1, "height": 1 },
+                "position": { "x": 0, "y": 0 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+        "checkButton": {
+            "video": {
+                "path": "button\\squre_button_pressed.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.015, "height": "auto" },
+                "position": { "x": 0.45, "y": 0.24 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+        "noCheckButton": {
+            "video": {
+                "path": "button\\squre_button.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.015, "height": "auto" },
+                "position": { "x": 0.45, "y": 0.24 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+
+        "refresh": {
+            "video": {
+                "path": "button\\refresh_button_pressed.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.088, "height": "auto" },
+                "position": { "x": 0.3117, "y": 0.22638 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+        "noRefresh": {
+            "video": {
+                "path": "button\\refresh_button.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.088, "height": "auto" },
+                "position": { "x": 0.3117, "y": 0.22638 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+
+        "showAllAnswer": {
+            "video": {
+                "path": "button\\show_all_button_pressed.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.06666666666, "height": "auto" },
+                "position": { "x": 0.75, "y": 0.22638 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+        "noshowAllAnswer": {
+            "video": {
+                "path": "button\\show_all_button.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.06666666666, "height": "auto" },
+                "position": { "x": 0.75, "y": 0.22638 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+
+        "skip": {
+            "video": {
+                "path": "button\\skip_button_pressed.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.058333, "height": "auto" },
+                "position": { "x": 0.825, "y": 0.22638 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+        "noSkip": {
+            "video": {
+                "path": "button\\skip_button.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.058333, "height": "auto" },
+                "position": { "x": 0.825, "y": 0.22638 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+
+        "clear": {
+            "video": {
+                "path": "button\\clear_button_pressed.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.07083333, "height": "auto" },
+                "position": { "x": 0.89, "y": 0.22638 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+        "noClear": {
+            "video": {
+                "path": "button\\clear_button.png",
+                "loadOption": "texture",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "audio": {
+                "path": "",
+                "loadOption": "gstreamer",
+                "blendMode": "none",
+                "playOption": { "loop": false, "pingpong": false }
+            },
+
+            "blendMode": "none",
+
+            "displayArea": {
+                "size": { "width": 0.07083333, "height": "auto" },
+                "position": { "x": 0.89, "y": 0.22638 },
+                "pivot": { "x": 0, "y": 0 },
+                "rotation": 0
+            }
+        },
+
+        "approveButton": {
+            "boothID": "",
+            "coin": 50,
+            "buttonMedia": {
+                "video": {
+                    "path": "approve.png",
+                    "loadOption": "texture",
+                    "blendMode": "none",
+                    "playOption": { "loop": false, "pingpong": false }
+                },
+
+                "audio": {
+                    "path": "",
+                    "loadOption": "gstreamer",
+                    "blendMode": "none",
+                    "playOption": { "loop": false, "pingpong": false }
+                },
+
+                "blendMode": "none",
+
+                "displayArea": {
+                    "size": { "width": 0.1, "height": 0.06481 },
+                    "position": { "x": 0.87, "y": 0.05 },
+                    "pivot": { "x": 0, "y": 0 },
+                    "rotation": 0
+                }
+            }
+        },
+        "webControlClient": {
+            "ip": "13.59.111.233",
+            "port": "5001"
+        },
+        "mainRectArea": {
+            "x1": 0.1,
+            "y1": 0.6,
+            "x2": 0.8,
+            "y2": 0.95
+        }
+    },
+	
+	"aClassConfig" : {
+		"configBool" : false,
+		"configDouble" : 2.2,
+		"configFloat" : 1.3,
+		"configString" : "fdsa",
+		"configInt" : 2,
+		"configVec2i" : {
+			"x" : 2,
+			"y" : 3
+		},
+		"configVec2f" : {
+			"x" : 4.5,
+			"y" : 6.7
+		},
+		"configVec3f" : {
+			"x" : 1.2,
+			"y" : 3.4,
+			"z" : 5.6
+		}
+	},
+
+	"audioTemplate" : { 
+		"path" : "relativeToAssetPath", 
+		"playOption" : { "loop" : false } 
+	},
+	
+	"videoTemplate" : {
+		"path" : "relativeToAssetPath",
+		"loadOption" : "surface | texture | gstreamer | quicktime",
+		"playOption" : { "loop" : false, "pingpong" : false }
+	},
+	
+	"multimediaTemplate" : {
+		"video" : {
+			"path" : "relativeToAssetPath",
+			"loadOption" : "surface | texture | gstreamer | quicktime",
+			"blendMode" : "none | premultiply | multiply | over | add | screen", 
+			"playOption" : { "loop" : false, "pingpong" : false }
+		},
+
+		"audio" : {
+			"path" : "relativeToAssetPath",
+			"loadOption" : "surface | texture | gstreamer | quicktime",
+			"blendMode" : "none | premultiply | multiply | over | add | screen", 
+			"playOption" : { "loop" : false, "pingpong" : false }
+		},
+
+		"blendMode" : "none | premultiply | multiply | over | add | screen", 
+
+		"displayArea" : {
+			"size" : { "width" : 1, "height" : "auto" }, 
+			"position" : { "x" : 0, "y" : 0 }, 
+			"pivot" : { "x" : 0, "y" : 0 }, 
+			"rotation" : 0
+		} 
+	},
+	
+	"oldAudioTemplate" : { "path" : "relativeToAssetPath", "playOption" : { "loop" : false } },
+	
+	"oldVideoWithDisplayAreaTemplate" : 
+		{ "path" : "relativeToAssetPath", "audioPath" : "relativeToAssetPath", "loadOption" : "surface | texture | gstreamer | quicktime",
+		  "blendMode" : "none | premultiply | multiply | over | add | screen", "playOption" : { "loop" : false, "pingpong" : false },
+		  "displayArea" : {
+			 "size" : { "width" : 1, "height" : "auto" }, "position" : { "x" : 0, "y" : 0 }, 
+			 "pivot" : { "x" : 0, "y" : 0 }, "rotation" : 0
+		  } 
+	    },
+
+	"oldVideoTemplate" : 
+		{ "path" : "relativeToAssetPath", "audioPath" : "relativeToAssetPath", "loadOption" : "surface | texture | gstreamer | quicktime",
+		  "blendMode" : "none | premultiply | multiply | over | add | screen", "playOption" : { "loop" : false, "pingpong" : false }
+	    },
+
+	"cameraTemplate" : {
+		"index" : 0,
+		"size" : { "width" : 1920, "height" : 1080 },
+		"mirror" : false,
+		"properties" : {
+			"translation" : { "x" : 9.4045319774609015e-001, "y" : 5.1591063111136357e+001, "z" : -1.0590903034455167e+001 },
+			"rotation" : [ 9.9986302928375637e-001, -1.4519449534790238e-002, -7.9440705382586886e-003,
+							1.4832464114262487e-002, 9.9905415759338856e-001, 4.0875276190674679e-002,
+							7.3430701895913896e-003, -4.0987507615998071e-002, 9.9913267564404040e-001	],
+			"verticalFov" : 39.2404,
+			"aspectRatio" : 1.7778,
+			"nearPlane" : 0.1,
+			"farPlane" : 10000,
+			"offsetInPercent" : { "x" : 0.0, "y" : 0.0 }
+		}
+	},
+
+	"cameraTemplateWithoutProperties" : {
+		"index" : 0,
+		"size" : { "width" : 1920, "height" : 1080 },
+		"mirror" : false
+	},
+
+	"kinectTemplate" : {
+		"index" : 0,
+		"rangeInMm" : { "min" : 50, "max" : 4000 },
+		"mirror" : true,
+		"oniFile" : "",
+		"motor" : false
+	},
+	
+	"averCaptureTemplate" : { 
+		"width" : 1920, "height" : 1080,
+		"progressive" : true,
+		"inputType" : "hd | sd",
+		"flip" : {"horizontal" : false, "vertical" : false},
+		"rotate" : "none | cw90 | ccw90",
+		"deinterlace" : "none | bob | blend | weave" 
+	}
+	
+}

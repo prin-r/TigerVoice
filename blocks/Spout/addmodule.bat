@@ -1,0 +1,1 @@
+git submodule add ssh://nas/git_repo/blocks/cinder_spout.git blocks/CinderSpout
